@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+
+#level-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+.level-btn {
+    font-size: 20px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#total {
+    font-size: 30px;
+    padding: 10px;
+    background-color: blueviolet;
+    width: 220px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.input-list>input {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 240px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(30, 82, 253, 0.953);
+}
+
+.input-list>input::placeholder {
+    color: bisque;
+}
+
+#time {
+    font-size: 30px;
+    border: 2px solid rgb(92, 92, 92);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    width: 220px;
+    text-align: center;
+}
+
+#ochko {
+    font-size: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 220px;
+    text-align: center;
+    background-color: chartreuse;
+}
+
+#result {
+    font-size: 30px;
+    color: red;
+    padding: 20px;
+    margin-top: 20px;
+    display: none;
+}
